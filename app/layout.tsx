@@ -1,10 +1,4 @@
 import "./globals.css";
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Aryan Singh | Sports Portfolio",
-  description: "One-page portfolio with a baseball/basketball vibe.",
-};
 
 export default function RootLayout({
   children,
@@ -13,10 +7,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen relative">
-        <div className="sports-texture absolute inset-0 opacity-40" />
-        <div className="relative">{children}</div>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
+
+export const metadata = {
+  title: "Aryan Singh",
+  description: "Personal Website",
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
+
+
