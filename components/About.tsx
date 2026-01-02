@@ -5,7 +5,7 @@ export default function About() {
             id="about"
             className="py-24 border-t border-zinc-200"
         >
-            <div className="flex items-start justify-between gap-10">
+            <div className="flex flex-col gap-10 sm:flex-row sm:items-start sm:justify-between">
                 <div>
                     <div className="inline-flex items-center gap-3">
                         <span className="inline-block h-2 w-10 rounded-full bg-zinc-900" />
@@ -19,19 +19,19 @@ export default function About() {
                             ABOUT
                         </h2>
                     </div>
-                    
+
                     <p className="mt-4 max-w-2xl text-lg text-black-700 leading-relaxed">
                         I’m Aryan, a first-year Computing & Financial Management student at the
                         University of Waterloo. On my free time, I enjoy building and exploring projects that intersect
                         in the world of finance and technology. You might wonder where I found my FinTech vibe — well, I was introduced to
                         the programming world in middle school and that's where I found my passion for coding and technology. With this foundation,
-                        I found myself digging the internet for finance-related projects to work on, and the rest is history! Now, I'm interested into learning
+                        I found myself digging the internet for finance-related projects to work on, which led me to explore FinTech! Now, I'm interested into learning
                         all types of new technologies that will shape the future of FinTech!
                     </p>
                 </div>
 
-                <div className="hidden sm:flex flex-col gap-6 w-100">
-                    <div className="flex gap-3 mt-1 animate-fade-in transition-all duration-300 hover:-translate-y-0.5">
+                <div className="flex flex-col gap-6 w-full sm:w-105">
+                    <div className="flex flex-wrap gap-3 mt-1 animate-fade-in transition-all duration-300">
                         <div className="rounded-2xl border border-zinc-300 bg-white/70 px-4 py-2 shadow-sm">
                             <div className="text-xs font-black uppercase tracking-widest text-zinc-500">ROLE</div>
                             <div className="text-sm font-semibold text-zinc-900">CFM Student</div>
@@ -79,9 +79,9 @@ export default function About() {
                         { name: "SQL (MySQL)", url: "https://www.mysql.com/" },
                         { name: "React", url: "https://react.dev/" },
                         { name: "Next.js", url: "https://nextjs.org/" },
-                        { name: "Tailwind CSS", url: "https://tailwindcss.com/" },
                         { name: "Node.js", url: "https://nodejs.org/" },
                         { name: "FastAPI", url: "https://fastapi.tiangolo.com/" },
+                        { name: "Tailwind CSS", url: "https://tailwindcss.com/" },
                     ].map(({ name, url }) => (
                         <a
                             key={name}

@@ -10,10 +10,10 @@ export default function Footer() {
                         Aryan's Personal Website.
                     </p>
                     <p className="text-sm">
-                        © 2024 Aryan Singh. All rights reserved.
+                        © 2026 Aryan Singh. All rights reserved.
                     </p>
                     <p className="text-sm">
-                        Made by Aryan Singh.
+                        Built by Aryan Singh.
                     </p>
                 </div>
 

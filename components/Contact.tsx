@@ -22,10 +22,10 @@ export default function Contact() {
                 <div className="space-y-10 text-zinc-900">
                     <a
                         href="mailto:a923sing@uwaterloo.ca"
-                        className="group flex items-center gap-5 hover:opacity-80 transition"
+                        className="group flex items-center gap-5 transition hover:opacity-80 cursor-pointer"
                     >
                         <Mail className="h-7 w-7" />
-                        <span className="font-f1 text-2xl tracking-wide">
+                        <span className="font-f1 text-2xl tracking-wide group-hover:underline underline-offset-4">
                             a923sing@uwaterloo.ca
                         </span>
                     </a>
@@ -34,21 +34,22 @@ export default function Contact() {
                         href="https://www.linkedin.com/in/aryan-singh29/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="group flex items-center gap-5 hover:opacity-80 transition"
+                        className="group flex items-center gap-5 transition hover:opacity-80 cursor-pointer"
                     >
                         <Linkedin className="h-7 w-7" />
-                        <span className="font-f1 text-2xl tracking-wide">
+                        <span className="font-f1 text-2xl tracking-wide group-hover:underline underline-offset-4">
                             aryan-singh29
                         </span>
                     </a>
 
                     <a
-                        href="#"
+                        href="/Aryan_Singh_S26_Resume.pdf"
                         target="_blank"
-                        className="group flex items-center gap-5 hover:opacity-80 transition"
+                        rel="noopener noreferrer"
+                        className="group flex items-center gap-5 transition hover:opacity-80 cursor-pointer"
                     >
                         <FileText className="h-7 w-7" />
-                        <span className="font-f1 text-2xl tracking-wide">
+                        <span className="font-f1 text-2xl tracking-wide group-hover:underline underline-offset-4">
                             Resume
                         </span>
                     </a>
@@ -57,15 +58,15 @@ export default function Contact() {
                         href="https://github.com/aryan29-dev"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="group flex items-center gap-5 hover:opacity-80 transition"
+                        className="group flex items-center gap-5 transition hover:opacity-80 cursor-pointer"
                     >
                         <Github className="h-7 w-7" />
-                        <span className="font-f1 text-2xl tracking-wide">
+                        <span className="font-f1 text-2xl tracking-wide group-hover:underline underline-offset-4">
                             aryan29-dev
                         </span>
                     </a>
                 </div>
-                
+
                 <div className="flex justify-center sm:justify-end">
                     <div className="border-[5px] border-zinc-900 p-2">
                         <img

@@ -1,5 +1,5 @@
 
-import { Github } from "lucide-react";
+import { Github, ExternalLink } from "lucide-react";
 
 type Project = {
     title: string;
@@ -12,15 +12,9 @@ type Project = {
 const projects: Project[] = [
     {
         title: "Robo-Advising Portfolio Optimizer 📊",
-        description: "A quantitative portfolio optimization tool that constructs a market-meet optimized portfolio given a csv file and evaluates each equity using real market data (yFinance API). Applies portfolio weighting techniques and sector caps constraints to build a diversified portfolio that aligns best with the benchmark index (S&P 500 & TSX Composite).",
+        description: "A quantitative portfolio optimization tool that constructs a market-meet portfolio from a CSV input and evaluates each asset using real market data (yfinance API). Applies portfolio weighting techniques and sector caps to build a diversified portfolio aligned best with the benchmark index (S&P 500 & TSX Composite).",
         href: "https://github.com/aryan29-dev/Robo-Advising-Challenge",
-        tech: [
-            "Python",
-            "pandas",
-            "NumPy",
-            "yFinance",
-            "Jupyter Notebook",
-        ],
+        tech: ["Python", "pandas", "NumPy", "yfinance", "Jupyter Notebook"],
         note: "Portfolio Optimization Challenge @ UWaterloo",
     },
 
@@ -30,22 +24,30 @@ const projects: Project[] = [
             "A Java-based basketball roster app that supports adding/removing players, sorting, and searching using ArrayLists. Built to practice core DSA logic with clean UI output.",
         href: "https://github.com/aryan29-dev/Baller",
         tech: ["Java", "ArrayLists", "OOP", "Algorithms"],
-        note: "OOP And Algorithmic Design",
+        note: "OOP & Algorithmic Design",
     },
     {
-        title: "Mini Python Projects 🐍",
+        title: "Portfolio Risk Engine 📈",
         description:
-            "Built 4 small Python projects that demonstrate fundamental programming concepts such as control flow, data structures, randomness, user input handling, and basic algorithms.",
-        href: "https://github.com/aryan29-dev/Mini-Projects-Python",
-        tech: ["Python", "Data Structures", "Algorithms", "User Handling"],
+            "A Python-based portfolio analysis engine that uses Monte Carlo simulation to evaluate risk and optimize portfolio performance. Simulates thousands of portfolios over the time period to determine the best risk-return trade-off (i.e. highest Sharpe ratio).",
+        href: "https://github.com/aryan29-dev/Portfolio-Risk-Engine",
+        tech: ["Python", "NumPy", "pandas", "Matplotlib", "Monte Carlo Simulation", "Financial Risk Analysis"],
+        note: "SWE/Finance Orientated Project",
     },
     {
         title: "Personal Website 🌐",
         description:
-            "My portfolio website built with modern frontend tools, clean layout, and responsive design!",
+            "My personal portfolio website built with modern frontend tools, emphasizing clean UI design, responsive layouts, and accessibility!",
         href: "https://github.com/aryan29-dev/personal-website",
         tech: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
         note: "This website!",
+    },
+    {
+        title: "Mini Python Projects 🐍",
+        description:
+            "Built a collection of small Python projects that demonstrate fundamental programming concepts such as control flow, data structures, randomness, user input handling, and basic algorithms.",
+        href: "https://github.com/aryan29-dev/Mini-Projects-Python",
+        tech: ["Python", "Data Structures", "Algorithms", "User Handling"],
     },
 ];
 
@@ -79,7 +81,7 @@ export default function Projects() {
                     >
                         <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
                             <div>
-                                <div className="flex items-center gap-3">
+                                <div className="flex flex-wrap items-start gap-3">
                                     <h3 className="text-xl font-bold text-zinc-900">{p.title}</h3>
                                     {p.note ? (
                                         p.title === "Robo-Advising Portfolio Optimizer 📊" ? (
@@ -112,6 +114,7 @@ export default function Projects() {
                             >
                                 <Github className="h-4 w-4" />
                                 GitHub
+                                <ExternalLink className="h-3.5 w-3.5 opacity-60" />
                             </a>
                         </div>
 
