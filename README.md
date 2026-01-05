@@ -14,7 +14,7 @@ Live site: [aryansingh.app](https://aryansingh.app/)
 - **Deployment:** Vercel
 ---
 
-## 🚀 How To Access The Website
+## 🚀 How To Access The Website (If not through live site)
 
 ```bash
 git clone https://github.com/aryan29-dev/personal-website.git
