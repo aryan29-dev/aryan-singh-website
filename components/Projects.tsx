@@ -28,7 +28,7 @@ const projects: Project[] = [
     {
         title: "Equity Trend Analyzer 📉📈",
         description:
-            "This project is a simple Streamlit web app that analyzes an equity’s price action using real historical market data (yfinance API). It calculates key risk/return metrics, determines the trend direction using linear regression, shows MA (moving average) signals, and optionally displays RSI (14) — all in a one-page dashboard with a CSV download.",
+            "This project is a simple Streamlit web app that analyzes the actions of an equity using real historical market data (yfinance API). It calculates key risk/return metrics, determines the trend direction using linear regression, shows MA (moving average) signals, and optionally displays RSI (14) — all in a one-page dashboard with a CSV download.",
         href: "https://github.com/aryan29-dev/Equity-Trend-Analyzer",
         tech: ["Python", "NumPy", "pandas", "Matplotlib", "yfinance", "Streamlit"],
         note: "SWE/Finance Orientated Project",
