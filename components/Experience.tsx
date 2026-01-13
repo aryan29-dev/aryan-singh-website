@@ -48,18 +48,14 @@ export default function Experience() {
                                     <strong className={bulletStrong}>300+ high-volume financial transactions</strong>{" "} using{" "}
                                     <strong className={bulletStrong}>Oracle POS</strong>{" "} systems, maintaining{" "}
                                     <strong className={bulletStrong}>95–99% transaction accuracy</strong>{" "} and{" "}
-                                    <strong className={bulletStrong}>strict accountability</strong>{" "} during peak operating hours.
+                                    <strong className={bulletStrong}>audit-level accountability</strong>{" "} during peak operating hours.
                                 </p>
                             </li>
 
                             <li className="flex items-start gap-3">
                                 <span className={bulletDot} />
-                                <p className={bulletText}>
-                                    Managed{" "}
-                                    <strong className={bulletStrong}>unit operations</strong>{" "} during peak operating periods, coordinating{" "}
-                                    <strong className={bulletStrong}>team operations</strong>,{" "} and resolving issues{" "}
-                                    in real time to maintain service continuity.
-                                </p>
+                                <p className={bulletText}> Coordinated{" "} <strong className={bulletStrong}>unit and team operations</strong>{" "}
+                                    during peak periods and resolved operational issues  in real time to maintain service continuity. </p>
                             </li>
 
                             <li className="flex items-start gap-3">
@@ -67,8 +63,8 @@ export default function Experience() {
                                 <p className={bulletText}>
                                     Embraced the role of a{" "}
                                     <strong className={bulletStrong}>team lead</strong>{" "} by{" "}
-                                    <strong className={bulletStrong}>distributing responsibilities</strong>,{" "} prioritizing tasks, and adapting operations in a{" "}
-                                    <strong className={bulletStrong}>fast-paced environment</strong>.
+                                    <strong className={bulletStrong}>distributing responsibilities</strong>,{" "} prioritizing tasks, and improving staff efficiency and staff coordination
+                                    in a{" "} <strong className={bulletStrong}>fast-paced environment</strong>.
                                 </p>
                             </li>
                         </ul>
@@ -102,19 +98,18 @@ export default function Experience() {
                                 <span className={bulletDot} />
                                 <p className={bulletText}>
                                     Collaborated within a{" "}
-                                    <strong className={bulletStrong}>cross-functional team</strong>{" "} to plan and execute a{" "}
-                                    <strong className={bulletStrong}>community infrastructure project</strong>{" "} under{" "}
-                                    <strong className={bulletStrong}>fixed timelines</strong>,{" "}
-                                    <strong className={bulletStrong}>limited resources</strong>,{" "} and{" "}
-                                    <strong className={bulletStrong}>logistical constraints</strong>.
+                                    <strong className={bulletStrong}>cross-functional team</strong>{" "}
+                                    to plan and execute a{" "}
+                                    <strong className={bulletStrong}>community infrastructure project</strong>{" "}
+                                    under fixed timelines, limited resources, and logistical constraints, meeting all project deadlines.
                                 </p>
                             </li>
 
                             <li className="flex items-start gap-3">
                                 <span className={bulletDot} />
                                 <p className={bulletText}>
-                                    Coordinated{" "}
-                                    <strong className={bulletStrong}>resources, materials, and execution</strong>{" "} to support the construction of a{" "}
+                                    Managed {" "}
+                                    <strong className={bulletStrong}>resources, materials, and on-site execution</strong>{" "} to support the construction of a{" "}
                                     <strong className={bulletStrong}>functional cow shelter</strong>{" "} in partnership with{" "}
                                     <strong className={bulletStrong}>Shelter Them</strong>.
                                 </p>
@@ -125,7 +120,7 @@ export default function Experience() {
                                 <p className={bulletText}>
                                     Planned and executed{" "}
                                     <strong className={bulletStrong}>fundraising</strong>{" "} and{" "}
-                                    <strong className={bulletStrong}>budget allocation initiatives</strong>,{" "} ensuring project completion within{" "}
+                                    <strong className={bulletStrong}>budget allocation initiatives</strong>,{" "} ensuring project completion despite{" "}
                                     <strong className={bulletStrong}>funding and resource constraints</strong>.
                                 </p>
                             </li>
