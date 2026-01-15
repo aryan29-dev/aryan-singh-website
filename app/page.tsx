@@ -33,7 +33,7 @@ export default function Home() {
                 <section className="pt-24 pb-32 sm:pb-40">
                     <div className="mx-auto w-full max-w-5xl px-5 sm:px-8">
                         <div className="relative mx-auto max-w-6xl px-6">
-                            <h1 className="font-black text-zinc-900 tracking-tight leading-tight text-[clamp(2.75rem,6vw,4.75rem)]">                                
+                            <h1 className="font-black text-zinc-900 tracking-tight leading-tight text-[clamp(2.75rem,6vw,4.75rem)]">
                                 I <Highlight rotate="-3deg">design</Highlight> with vision and <Highlight rotate="-3deg">code</Highlight> with purpose.
                             </h1>
                             <p className="mt-4 font-black italic text-zinc-900 text-2xl sm:text-3xl md:text-4xl">
@@ -51,36 +51,36 @@ export default function Home() {
                                 </a>, interested in software, data, and finance.
                             </p>
 
-                            <div className="mt-8 flex gap-4 text-lg text-zinc-800 font-semibold">
-                                <a
-                                    className="hover:underline"
-                                    href="/Aryan_Singh_S26_Resume.pdf"
-                                    target="_blank"
-                                    rel="noopener noreferrer">
-                                    Resume
-                                </a>
+                            <div className="mt-8 w-full max-w-sm">
+                                <div className="grid grid-cols-2 gap-3 sm:flex sm:flex-nowrap sm:gap-3">
+                                    <a
+                                        href="/Aryan_Singh_S26_Resume.pdf"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="flex items-center justify-center rounded-full border border-zinc-300 bg-white/70 px-5 py-2 text-sm font-semibold text-zinc-900 backdrop-blur transition hover:bg-white hover:shadow-sm sm:w-auto"
+                                    >
+                                        Resume
+                                    </a>
 
-                                <span>•</span>
+                                    <a
+                                        href="https://github.com/aryan29-dev"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="flex items-center justify-center rounded-full border border-zinc-300 bg-white/70 px-5 py-2 text-sm font-semibold text-zinc-900 backdrop-blur transition hover:bg-white hover:shadow-sm sm:w-auto"
+                                    >
+                                        GitHub
+                                    </a>
 
-                                <a
-                                    className="hover:underline"
-                                    href="https://github.com/aryan29-dev"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    GitHub
-                                </a>
-
-                                <span>•</span>
-
-                                <a
-                                    className="hover:underline"
-                                    href="https://www.linkedin.com/in/aryan-singh29/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    LinkedIn
-                                </a>
+                                    <a
+                                        href="https://www.linkedin.com/in/aryan-singh29/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="flex items-center justify-center rounded-full border border-zinc-300 bg-white/70 px-5 py-2 text-sm font-semibold text-zinc-900 backdrop-blur transition hover:bg-white hover:shadow-sm sm:w-auto"
+                                    >
+                                        LinkedIn
+                                    </a>
+                                    <div className="sm:hidden" />
+                                </div>
                             </div>
                         </div>
                     </div>
