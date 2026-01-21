@@ -51,12 +51,12 @@ export default function Experience() {
                             <li className="flex items-start gap-3">
                                 <span className={bulletDot} />
                                 <p className={bulletText}>
-                                    Processed{" "}
+                                    Executed{" "}
                                     <strong className={bulletStrong}>
-                                        300+ high-volume financial transactions
+                                        300+ high-volume financial transactions per shift
                                     </strong>{" "}
-                                    using <strong className={bulletStrong}>Oracle POS</strong>{" "}
-                                    systems, maintaining{" "}
+                                    using <strong className={bulletStrong}>Oracle POS</strong> systems,
+                                    maintaining{" "}
                                     <strong className={bulletStrong}>
                                         95–99% transaction accuracy
                                     </strong>{" "}
@@ -75,12 +75,19 @@ export default function Experience() {
                                     <strong className={bulletStrong}>
                                         unit and team operations
                                     </strong>{" "}
-                                    during peak periods, resolving real-time operational issues to
-                                    maintain service continuity across{" "}
+                                    across{" "}
                                     <strong className={bulletStrong}>
                                         5–10 associates
                                     </strong>{" "}
-                                    per shift.
+                                    per shift, resolving real-time operational issues to maintain{" "}
+                                    <strong className={bulletStrong}>
+                                        continuous workflow
+                                    </strong>{" "}
+                                    and{" "}
+                                    <strong className={bulletStrong}>
+                                        minimize service delays
+                                    </strong>{" "}
+                                    during peak periods.
                                 </p>
                             </li>
 
@@ -91,9 +98,10 @@ export default function Experience() {
                                     <strong className={bulletStrong}>
                                         team operations
                                     </strong>{" "}
-                                    by prioritizing responsibilities and supporting efficient{" "}
+                                    by prioritizing associate responsibilities and adapting workflows in real
+                                    time, supporting{" "}
                                     <strong className={bulletStrong}>
-                                        front-line operations
+                                        efficient front-line operations
                                     </strong>{" "}
                                     for{" "}
                                     <strong className={bulletStrong}>
@@ -138,14 +146,14 @@ export default function Experience() {
                                 <span className={bulletDot} />
                                 <p className={bulletText}>
                                     Collaborated within a{" "}
-                                    <strong className={bulletStrong}>cross-functional team</strong>{" "}
-                                    of{" "}
+                                    <strong className={bulletStrong}>cross-functional team</strong> of{" "}
                                     <strong className={bulletStrong}>15+ members</strong>{" "}
                                     to plan and execute a{" "}
                                     <strong className={bulletStrong}>
                                         community infrastructure project
-                                    </strong>{" "}
-                                    under fixed timelines and logistical constraints, meeting all project deadlines.
+                                    </strong>
+                                    , meeting all project deadlines despite fixed timelines and logistical
+                                    constraints.
                                 </p>
                             </li>
 
@@ -154,12 +162,12 @@ export default function Experience() {
                                 <p className={bulletText}>
                                     Managed resources, materials, and{" "}
                                     <strong className={bulletStrong}>on-site execution</strong>{" "}
-                                    to support the construction of a{" "}
+                                    during the construction of a{" "}
                                     <strong className={bulletStrong}>
                                         fully functional cow shelter
                                     </strong>{" "}
                                     in partnership with{" "}
-                                    <strong className={bulletStrong}>Shelter Them</strong>, contributing to
+                                    <strong className={bulletStrong}>Shelter Them</strong>, ensuring on-time
                                     project completion under limited resources.
                                 </p>
                             </li>
@@ -171,7 +179,7 @@ export default function Experience() {
                                     <strong className={bulletStrong}>
                                         fundraising and budget allocation initiatives
                                     </strong>
-                                    , coordinating financial planning to support on-time project completion
+                                    , coordinating financial planning to ensure on-time project completion
                                     under{" "}
                                     <strong className={bulletStrong}>
                                         limited funding resources
@@ -179,6 +187,7 @@ export default function Experience() {
                                 </p>
                             </li>
                         </ul>
+
                     </div>
 
                     <span className="text-sm font-semibold text-zinc-500 sm:whitespace-nowrap">
