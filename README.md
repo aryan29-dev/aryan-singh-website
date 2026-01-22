@@ -1,6 +1,6 @@
-# Aryan's Personal Website.
+# Aryan's Portfolio.
 
-A responsive personal portfolio website showcasing my experience and projects in the world of software, data, and finance.
+This is a responsive personal portfolio website showcasing my experience and projects in the world of software, data, and finance!
 ---
 
 Live site: [aryansingh.app](https://aryansingh.app/)
@@ -14,7 +14,7 @@ Live site: [aryansingh.app](https://aryansingh.app/)
 - **Deployment:** Vercel
 ---
 
-## 🚀 How To Access The Website (If not through live site)
+## 🚀 How To Access The Website
 
 ```bash
 git clone https://github.com/aryan29-dev/personal-website.git
