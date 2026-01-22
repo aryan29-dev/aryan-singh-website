@@ -40,15 +40,18 @@ export default function Home() {
                                 Built through consistency.
                             </p>
 
-                            <p className="mt-6 text-xl text-black-700 max-w-2xl">
-                                Hi, I'm Aryan Singh, a first-year Computing And Financial Management student (Co-op) @ <a
+                            <p className="mt-6 text-xl text-zinc-700 max-w-2xl">
+                                Hi! I'm Aryan Singh, a first-year Computing And Financial Management student (Co-op) @{" "}
+                                <a
                                     href="https://uwaterloo.ca"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="font-semibold underline underline-offset-4 hover:text-blue-600 transition"
+                                    className="relative font-semibold inline-block border-b-2 border-zinc-900 
+                                    hover:border-blue-600 hover:text-blue-600 transition"
                                 >
                                     University of Waterloo
-                                </a>, interested in software, data, and finance.
+                                </a>
+                                , who is passionate about the intersection of software, data, and finance!
                             </p>
 
                             <div className="mt-8 w-full max-w-sm">

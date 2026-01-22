@@ -13,6 +13,21 @@ import {
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 
+const iconColors: Record<string, string> = {
+    Python: "text-[#3776AB]",
+    Java: "text-[#007396]",
+    C: "text-[#A8B9CC]",
+    "C++": "text-[#00599C]",
+    JavaScript: "text-[#F7DF1E]",
+    TypeScript: "text-[#3178C6]",
+    "SQL (MySQL)": "text-[#4479A1]",
+    React: "text-[#61DAFB]",
+    "Next.js": "text-black",
+    "Node.js": "text-[#339933]",
+    FastAPI: "text-[#009688]",
+    "Tailwind CSS": "text-[#38BDF8]",
+};
+
 export default function About() {
     return (
         <section
@@ -35,20 +50,20 @@ export default function About() {
                     </div>
 
                     <p className="mt-4 max-w-2xl text-lg text-black-700 leading-relaxed">
-                        I’m Aryan, a first-year Computing & Financial Management student at the University of Waterloo (Co-op).
-                        I enjoy building projects at the intersection of finance and technology, where data and code
+                        Hi! I’m Aryan, a first-year Computing & Financial Management student at the University of Waterloo (Co-op).
+                        On my free time, I enjoy building projects that are at the intersection of finance and technology, where stocks and code
                         come together to solve real problems.
                     </p>
 
                     <p className="mt-3 max-w-2xl text-lg text-black-700 leading-relaxed">
-                        My interest in FinTech started early - I was introduced to programming in middle school,
-                        where I discovered my passion for coding and technology. As my skills grew, I began exploring
+                        My interest in FinTech started early - I was introduced to programming, specifcially HTML and CSS, in middle school,
+                        where I discovered my passion for coding and technology. As my skills grew, I began exploring the world of finance, and 
                         finance-related projects online, which naturally led me into the world of FinTech.
                     </p>
 
                     <p className="mt-3 max-w-2xl text-lg text-black-700 leading-relaxed">
                         Currently, I’m focused on learning new technologies and building data-driven tools that will
-                        shape the future of financial technology.
+                        shape the future of financial technology. If I am not coding or studying, you can find me watching basketball or baseball!
                     </p>
                 </div>
 
@@ -72,7 +87,7 @@ export default function About() {
                         <ul className="mt-3 space-y-3 text-zinc-700">
                             <li className="flex items-center gap-3">
                                 <span className="text-lg">🏀⚾️</span>
-                                <span>Basketball and baseball enthusiast!</span>
+                                <span>Favorite Sports: Basketball and Baseball!</span>
                             </li>
                             <li className="flex items-center gap-3">
                                 <span className="text-lg">📊</span>
@@ -85,6 +100,9 @@ export default function About() {
                         </ul>
                     </div>
                 </div>
+                <div className="mt-4 rounded-xl overflow-hidden border border-zinc-200 bg-white">
+
+</div>
             </div>
 
             <div className="sm:col-span-2 rounded-3xl border border-zinc-200 bg-white/60 p-6 shadow-sm gap-6 mt-8">
@@ -115,7 +133,10 @@ export default function About() {
                             px-4 py-3.5 text-sm font-semibold text-zinc-800 shadow-sm transition
                             hover:-translate-y-0.5 hover:shadow-md hover:bg-white hover:border-zinc-400">
                             {icons.map((Icon, idx) => (
-                                <Icon key={idx} className="text-lg text-zinc-700" />
+                                <Icon
+                                    key={idx}
+                                    className={`text-lg ${iconColors[name] ?? "text-zinc-700"}`}
+                                />
                             ))}
                             <span>{name}</span>
                         </a>

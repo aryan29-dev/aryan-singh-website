@@ -7,7 +7,7 @@ export default function Footer() {
 
                 <div className="space-y-1 text-zinc-700">
                     <p className="font-f1 text-xl font-black tracking-wide">
-                        Aryan's Personal Website.
+                        Aryan's Portfolio.
                     </p>
                     <p className="text-sm">
                         © 2026 Aryan Singh. All rights reserved.

@@ -53,57 +53,33 @@ export default function Experience() {
                                 <p className={bulletText}>
                                     Executed{" "}
                                     <strong className={bulletStrong}>
-                                        300+ high-volume financial transactions per shift
+                                        300+ high-volume financial transactions
                                     </strong>{" "}
-                                    using <strong className={bulletStrong}>Oracle POS</strong> systems,
-                                    maintaining{" "}
-                                    <strong className={bulletStrong}>
-                                        95–99% transaction accuracy
-                                    </strong>{" "}
-                                    and{" "}
-                                    <strong className={bulletStrong}>
-                                        audit-level accountability
-                                    </strong>{" "}
-                                    during peak operating hours.
+                                    per shift using{" "}
+                                    <strong className={bulletStrong}>Oracle POS</strong>{" "}
+                                    systems, maintaining <strong className={bulletStrong}>95–99% transaction accuracy</strong>{" "} and audit-level
+                                    accountability during peak operating hours.
                                 </p>
                             </li>
 
                             <li className="flex items-start gap-3">
                                 <span className={bulletDot} />
                                 <p className={bulletText}>
-                                    Coordinated{" "}
+                                    Coordinated unit and team operations across{" "}
                                     <strong className={bulletStrong}>
-                                        unit and team operations
-                                    </strong>{" "}
-                                    across{" "}
-                                    <strong className={bulletStrong}>
-                                        5–10 associates
-                                    </strong>{" "}
-                                    per shift, resolving real-time operational issues to maintain{" "}
-                                    <strong className={bulletStrong}>
-                                        continuous workflow
-                                    </strong>{" "}
-                                    and{" "}
-                                    <strong className={bulletStrong}>
-                                        minimize service delays
-                                    </strong>{" "}
-                                    during peak periods.
+                                        5–10 associates per shift
+                                    </strong>
+                                    , resolving real-time operational issues to maintain continuous
+                                    workflow and reduce service delays during peak periods.
                                 </p>
                             </li>
 
                             <li className="flex items-start gap-3">
                                 <span className={bulletDot} />
                                 <p className={bulletText}>
-                                    Led{" "}
-                                    <strong className={bulletStrong}>
-                                        team operations
-                                    </strong>{" "}
-                                    by prioritizing associate responsibilities and adapting workflows in real
-                                    time, supporting{" "}
-                                    <strong className={bulletStrong}>
-                                        efficient front-line operations
-                                    </strong>{" "}
-                                    for{" "}
+                                    Led team operations by prioritizing associate responsibilities and
+                                    adapting workflows in real time, supporting efficient front-line
+                                    operations for{" "}
                                     <strong className={bulletStrong}>
                                         hundreds of guests per shift
                                     </strong>{" "}
@@ -145,14 +121,10 @@ export default function Experience() {
                             <li className="flex items-start gap-3">
                                 <span className={bulletDot} />
                                 <p className={bulletText}>
-                                    Collaborated within a{" "}
-                                    <strong className={bulletStrong}>cross-functional team</strong> of{" "}
+                                    Collaborated within a cross-functional team of{" "}
                                     <strong className={bulletStrong}>15+ members</strong>{" "}
-                                    to plan and execute a{" "}
-                                    <strong className={bulletStrong}>
-                                        community infrastructure project
-                                    </strong>
-                                    , meeting all project deadlines despite fixed timelines and logistical
+                                    to plan and execute a community infrastructure project, successfully
+                                    meeting all project deadlines despite fixed timelines and logistical
                                     constraints.
                                 </p>
                             </li>
@@ -160,34 +132,25 @@ export default function Experience() {
                             <li className="flex items-start gap-3">
                                 <span className={bulletDot} />
                                 <p className={bulletText}>
-                                    Managed resources, materials, and{" "}
-                                    <strong className={bulletStrong}>on-site execution</strong>{" "}
-                                    during the construction of a{" "}
-                                    <strong className={bulletStrong}>
-                                        fully functional cow shelter
-                                    </strong>{" "}
-                                    in partnership with{" "}
-                                    <strong className={bulletStrong}>Shelter Them</strong>, ensuring on-time
-                                    project completion under limited resources.
+                                    Managed resources, materials, and on-site execution during the
+                                    construction of a <strong className={bulletStrong}>fully functional cow shelter</strong>{" "} in partnership with
+                                    Shelter Them, ensuring on-time completion within a{" "}
+                                    <strong className={bulletStrong}>2-week timeline</strong>{" "}
+                                    under limited resources.
                                 </p>
                             </li>
 
                             <li className="flex items-start gap-3">
                                 <span className={bulletDot} />
                                 <p className={bulletText}>
-                                    Planned and executed{" "}
-                                    <strong className={bulletStrong}>
-                                        fundraising and budget allocation initiatives
-                                    </strong>
-                                    , coordinating financial planning to ensure on-time project completion
-                                    under{" "}
-                                    <strong className={bulletStrong}>
-                                        limited funding resources
-                                    </strong>.
+                                    Planned and executed fundraising and budget allocation initiatives,
+                                    raising{" "}
+                                    <strong className={bulletStrong}>$2,000+</strong>{" "}
+                                    and coordinating financial planning to ensure on-time completion
+                                    under limited funding resources.
                                 </p>
                             </li>
                         </ul>
-
                     </div>
 
                     <span className="text-sm font-semibold text-zinc-500 sm:whitespace-nowrap">

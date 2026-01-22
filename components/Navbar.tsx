@@ -22,7 +22,7 @@ export default function Navbar() {
               className="flex items-baseline min-w-0"
             >
               <span className="whitespace-nowrap text-xl sm:text-2xl lg:text-3xl font-black tracking-tight">
-                Aryan&apos;s Personal Website.
+                Aryan's Portfolio.
               </span>
             </button>
             <a href="#contact" className="hidden lg:inline-flex shrink-0">
