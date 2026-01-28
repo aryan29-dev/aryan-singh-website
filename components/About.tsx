@@ -10,7 +10,11 @@ import {
     SiNodedotjs,
     SiFastapi,
     SiTailwindcss,
+    SiPandas,
+    SiNumpy,
+    SiScikitlearn,
 } from "react-icons/si";
+
 import { FaJava } from "react-icons/fa";
 
 const iconColors: Record<string, string> = {
@@ -26,6 +30,11 @@ const iconColors: Record<string, string> = {
     "Node.js": "text-[#339933]",
     FastAPI: "text-[#009688]",
     "Tailwind CSS": "text-[#38BDF8]",
+    pandas: "text-[#150458]",
+    NumPy: "text-[#013243]",
+    "scikit-learn": "text-[#F7931E]",
+    Matplotlib: "text-[#11557C]",
+    yfinance: "text-[#1f6feb]",
 };
 
 export default function About() {
@@ -57,7 +66,7 @@ export default function About() {
 
                     <p className="mt-3 max-w-2xl text-lg text-black-700 leading-relaxed">
                         My interest in FinTech started early - I was introduced to programming, specifcially HTML and CSS, in middle school,
-                        where I discovered my passion for coding and technology. As my skills grew, I began exploring the world of finance, and 
+                        where I discovered my passion for coding and technology. As my skills grew, I began exploring the world of finance, and
                         finance-related projects online, which naturally led me into the world of FinTech.
                     </p>
 
@@ -102,7 +111,7 @@ export default function About() {
                 </div>
                 <div className="mt-4 rounded-xl overflow-hidden border border-zinc-200 bg-white">
 
-</div>
+                </div>
             </div>
 
             <div className="sm:col-span-2 rounded-3xl border border-zinc-200 bg-white/60 p-6 shadow-sm gap-6 mt-8">
@@ -123,24 +132,35 @@ export default function About() {
                         { name: "Node.js", url: "https://nodejs.org/", icons: [SiNodedotjs] },
                         { name: "FastAPI", url: "https://fastapi.tiangolo.com/", icons: [SiFastapi] },
                         { name: "Tailwind CSS", url: "https://tailwindcss.com/", icons: [SiTailwindcss] },
-                    ].map(({ name, url, icons }) => (
-                        <a
-                            key={name}
-                            href={url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center justify-center gap-3 rounded-xl border border-zinc-200/80 bg-white/80
+                        { name: "pandas", url: "https://pandas.pydata.org/", icons: [SiPandas] },
+                        { name: "NumPy", url: "https://numpy.org/", icons: [SiNumpy] },
+                        { name: "scikit-learn", url: "https://scikit-learn.org/", icons: [SiScikitlearn] },
+                        {
+                            name: "yfinance",
+                            url: "https://pypi.org/project/yfinance/",
+                            image: "/yfinance.png"
+                        }].map(({ name, url, icons, image }) => (
+                            <a
+                                key={name}
+                                href={url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center justify-center gap-3 rounded-xl border border-zinc-200/80 bg-white/80
                             px-4 py-3.5 text-sm font-semibold text-zinc-800 shadow-sm transition
                             hover:-translate-y-0.5 hover:shadow-md hover:bg-white hover:border-zinc-400">
-                            {icons.map((Icon, idx) => (
-                                <Icon
-                                    key={idx}
-                                    className={`text-lg ${iconColors[name] ?? "text-zinc-700"}`}
-                                />
-                            ))}
-                            <span>{name}</span>
-                        </a>
-                    ))}
+                                {icons && icons.map((Icon, idx) => (
+                                    <Icon key={idx} className={`text-lg ${iconColors[name] ?? "text-zinc-700"}`} />
+                                ))}
+                                {image && (
+                                    <img
+                                        src={image}
+                                        alt={name}
+                                        className="h-5 w-5 object-contain"
+                                    />
+                                )}
+                                <span>{name}</span>
+                            </a>
+                        ))}
                 </div>
             </div>
         </section>
