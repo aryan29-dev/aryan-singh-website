@@ -52,43 +52,32 @@ export default function Experience() {
                                 <span className={bulletDot} />
                                 <p className={bulletText}>
                                     Executed{" "}
-                                    <strong className={bulletStrong}>
-                                        300+ high-volume financial transactions
-                                    </strong>{" "}
-                                    per shift using{" "}
-                                    <strong className={bulletStrong}>Oracle POS</strong>{" "}
-                                    systems, maintaining <strong className={bulletStrong}>95–99% transaction accuracy</strong>{" "} and audit-level
-                                    accountability during peak operating hours.
+                                    <strong className={bulletStrong}>300+ high-volume financial transactions</strong>{" "}
+                                    per shift using Oracle POS systems, maintaining 95–99% transaction accuracy and
+                                    audit-level accountability during peak operating hours.
                                 </p>
                             </li>
 
                             <li className="flex items-start gap-3">
                                 <span className={bulletDot} />
                                 <p className={bulletText}>
-                                    Coordinated and supervised unit operations across{" "}
-                                    <strong className={bulletStrong}>
-                                        5–10 associates per shift
-                                    </strong>
-                                    {" "}
-                                     during peak periods, resolving real-time operational issues to maintain continuous
-                                    workflow and reduce service delays.
+                                    Supervised and coordinated day-to-day operations across{" "}
+                                    <strong className={bulletStrong}>5–10 associates per shift</strong>{" "}
+                                    during peak periods, providing task delegation and resolving real-time
+                                    operational issues to maintain efficient service flow.
                                 </p>
                             </li>
 
                             <li className="flex items-start gap-3">
                                 <span className={bulletDot} />
                                 <p className={bulletText}>
-                                    Led team operations by prioritizing associate responsibilities and
-                                    adapting workflows in real time, supporting efficient front-line
-                                    operations for{" "}
-                                    <strong className={bulletStrong}>
-                                        hundreds of guests per shift
-                                    </strong>{" "}
+                                    Optimized front-line workflows by prioritizing associate responsibilities and
+                                    adapting processes in real time, supporting efficient service for{" "}
+                                    <strong className={bulletStrong}>hundreds of guests per shift</strong>{" "}
                                     in a fast-paced environment.
                                 </p>
                             </li>
                         </ul>
-
                     </div>
 
                     <span className="text-sm font-semibold text-zinc-500 sm:whitespace-nowrap">
@@ -134,7 +123,7 @@ export default function Experience() {
                                 <span className={bulletDot} />
                                 <p className={bulletText}>
                                     Managed resources, materials, and on-site execution during the
-                                    construction of a <strong className={bulletStrong}>fully functional cow shelter</strong>{" "} in partnership with
+                                    construction of a fully functional cow shelter in partnership with
                                     Shelter Them, ensuring on-time completion within a{" "}
                                     <strong className={bulletStrong}>2-week timeline</strong>{" "}
                                     under limited resources.
